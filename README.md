@@ -27,4 +27,4 @@ will work (If you need help with installing Stata or do not have Stata on your
 personal machine, please email Anh Do at doanh\[@\]msu.edu)
 * Basic knowledge of your computer
 
-**Before the Event:**
+## Before the Event:
