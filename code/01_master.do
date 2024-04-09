@@ -20,7 +20,7 @@ macro drop _all
 *-------------------------------------------------------------------------------
 * Define Project Folder Paths And Other Globals
 *-------------------------------------------------------------------------------
-global ROOT "C:/Users/doanh/Desktop/stata_workshop/"
+global ROOT "C:/Users/doanh/Desktop/stata_workshop_2024/"
 global CODE "$ROOT/code"
 global RAW "$ROOT/raw_data"
 global FINAL "$ROOT/final_data"
