@@ -32,9 +32,19 @@ global DATE: display %tdCCYY-NN-DD = daily("`c(current_date)'", "DMY")
 *-------------------------------------------------------------------------------
 * Install Packages
 *-------------------------------------------------------------------------------
+// For data missingess
 ssc install mdesc, replace
+
+// Export codebook
+ssc install codebookout, replace // to MS Excel
+ssc install wordcb, replace // to MS Word
+ssc install htmlcb, replace // to HTML
+
+// Various packages for exporting tables in LaTeX, Word, Excel, HTML, etc.
 ssc install outreg2, replace
 ssc install estout, replace
+ssc install tabout, replace
+ssc install asdoc, replace
 
 
 *-------------------------------------------------------------------------------
