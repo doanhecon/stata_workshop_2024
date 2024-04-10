@@ -20,12 +20,13 @@ project effectively and ensure reproducibility when using Stata.
 
 **Prerequisites:**
 
-* We assume no prior knowledge of using Stata but some basic knowledge/interest 
+* We assume no prior knowledge of using Stata but some basic knowledge/interest
 in data analysis
-* Stata installed and working, preferably Stata 16 and up but older versions 
-will work (If you need help with installing Stata or do not have Stata on your 
+* Stata installed and working, preferably Stata 16 and up but older versions
+will work (If you need help with installing Stata or do not have Stata on your
 personal machine, please email Anh Do at doanh\[@\]msu.edu)
-* Basic knowledge of your computer
+* Basic knowledge of your computer, for example, how to organize files and
+folders, how to locate a file and its path, how to unzip folders, etc.
 
 ## Before the Event:
 Please make sure that you follow these steps prior to the workshop. Because the
@@ -34,10 +35,21 @@ if everyone comes prepared. If you run into any issues, feel free to send me an
 email at doanh\[@\]msu.edu as soon as possible.
 
 1. Check that you have Stata installed and running on your device.
-2. Download all files/folders from this Git repository to your computer, keeping
-all file names unchanged. I suggest that you create a folder named
-"stata_workshop_2024" (or any name of your choice) on your computer and download
-all files here into that folder. You should have this file structure on your
+
+2. Check your inbox for an email from CSTAT with a zip file named
+"stata_workshop_2024.zip". Download and unzip this file. This is the sample
+project that we will walk through together during the workshop. The content is
+the same as what you find here in this Git repository. **If you have done this,
+you're set and can skip step 3!**
+
+3. In case you cannot find the email from us with the zip file, you can download
+all files/folders from this Git repository to your computer, keeping all file
+names unchanged. I suggest that you create a folder named "stata_workshop_2024"
+(or any name of your choice) on your computer and download all files here into
+that folder. (**Help**: On the top right of this page, click on the green button
+that says "Code", then click on "Download ZIP").
+
+Once you have completed these steps, you should have this file structure on your
 computer:
 
 ```bash
