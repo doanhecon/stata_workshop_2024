@@ -29,12 +29,22 @@ personal machine, please email Anh Do at doanh\[@\]msu.edu)
 
 ## Before the Event:
 Please make sure that you follow these steps prior to the workshop. Because the
-event only last 60 minutes, we will have more time to cover the core materials
+event only lasts 60 minutes, we will have more time to cover the core materials
 if everyone comes prepared. If you run into any issues, feel free to send me an
 email at doanh\[@\]msu.edu as soon as possible.
 
 1. Check that you have Stata installed and running on your device.
-2. Download all folders in this Git repository and save them somewhere on your
-computer. I suggest that you create a folder named "stata_workshop" (or any name
-of your choice) on your computer and download all files here into that folder.
-Afterwards, you should have this file structure on your computer:
+2. Download all files/folders from this Git repository to your computer, keeping
+all file names unchanged. I suggest that you create a folder named
+"stata_workshop_2024" (or any name of your choice) on your computer and download
+all files here into that folder. You should have this file structure on your
+computer:
+
+```bash
+stata_workshop_2024
+    ├── README.md
+    ├── code
+    │   └── 01_master.do
+    └── raw_data
+        └── gpa2_mod.csv
+```
