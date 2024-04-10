@@ -50,3 +50,9 @@ stata_workshop_2024
     └── raw_data
         └── gpa2_mod.csv
 ```
+
+## Helpful Resources
+
+## Data Source
+This workshop uses a modified version of the GPA2.DTA data file from 
+"Introductory Econometrics: A Modern Approach, 7e" by Jeffrey M. Wooldridge.
