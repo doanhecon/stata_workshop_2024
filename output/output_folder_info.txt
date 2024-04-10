@@ -1,0 +1,1 @@
+This folder contains analysis outputs and results such as graphs and tables.

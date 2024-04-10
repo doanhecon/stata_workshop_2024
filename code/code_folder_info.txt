@@ -1,0 +1,1 @@
+This folder contains Stata do files that execute code.
