@@ -59,8 +59,9 @@ stata_workshop_2024                           # ROOT folder
         └── raw_data_folder_info.txt
 ```
 
-## Helpful Resources
+## Helpful Resources:
+1. https://www.statalist.org/
 
-## Data Source
+## Data Source:
 This workshop uses a modified version of the GPA2.DTA data file from 
 "Introductory Econometrics: A Modern Approach, 7e" by Jeffrey M. Wooldridge.
