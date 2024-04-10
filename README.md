@@ -44,7 +44,9 @@ computer:
 stata_workshop_2024
     ├── README.md
     ├── code
-    │   └── 01_master.do
+    │   ├── 01_master.do
+    │   ├── 02_process_data.do
+    │   └── 03_explore_data.do
     └── raw_data
         └── gpa2_mod.csv
 ```
