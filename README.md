@@ -35,19 +35,15 @@ if everyone comes prepared. If you run into any issues, feel free to send me an
 email at doanh\[@\]msu.edu as soon as possible.
 
 1. Check that you have Stata installed and running on your device.
-
 2. Check your inbox for an email from CSTAT with a zip file named
 "stata_workshop_2024.zip". Download and unzip this file. This is the sample
 project that we will walk through together during the workshop. The content is
 the same as what you find here in this Git repository. **If you have done this,
 you're set and can skip step 3!**
-
 3. In case you cannot find the email from us with the zip file, you can download
 all files/folders from this Git repository to your computer, keeping all file
-names unchanged. I suggest that you create a folder named "stata_workshop_2024"
-(or any name of your choice) on your computer and download all files here into
-that folder. (**Help**: On the top right of this page, click on the green button
-that says "Code", then click on "Download ZIP").
+names unchanged. **To do so**: On the top right of this page, click on the green
+button that says "Code", then click on "Download ZIP".
 
 Once you have completed these steps, you should have this file structure on your
 computer:
@@ -72,6 +68,8 @@ stata_workshop_2024                           # ROOT folder
 ```
 
 ## Helpful Resources:
+Here is a list of resources that I find helpful. I will update this list over time.
+
 1. https://www.statalist.org/
 
 ## Data Source:
