@@ -41,14 +41,22 @@ all files here into that folder. You should have this file structure on your
 computer:
 
 ```bash
-stata_workshop_2024
-    ├── README.md
-    ├── code
+stata_workshop_2024                           # ROOT folder
+    ├── README.md                             # README file
+    ├── code                                  # Stata do files
     │   ├── 01_master.do
     │   ├── 02_process_data.do
-    │   └── 03_explore_data.do
-    └── raw_data
-        └── gpa2_mod.csv
+    │   ├── 03_explore_data.do
+    │   └── code_folder_info.txt
+    ├── final_data                            # Processed data
+    │   └── final_data_folder_info.txt
+    ├── log                                   # Stata log files
+    │   └── log_folder_info.txt
+    ├── output                                # Graphs and tables
+    │   └── output_folder_info.txt
+    └── raw_data                              # Raw data
+        ├── gpa2_mod.csv
+        └── raw_data_folder_info.txt
 ```
 
 ## Helpful Resources
