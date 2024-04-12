@@ -1,5 +1,5 @@
 /*
-Last updated	: 03/31/2024
+Last updated	: 04/11/2024
 Author			: Anh Do
 Affiliation		: MSU CSTAT
 Software		: Stata/SE 18.0
@@ -51,3 +51,4 @@ ssc install asdoc, replace
 * Execute Do Files
 *-------------------------------------------------------------------------------
 do "$CODE/02_process_data.do"
+do "$CODE/03_explore_data.do"
