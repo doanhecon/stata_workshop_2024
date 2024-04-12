@@ -49,26 +49,28 @@ Once you have completed these steps, you should have this file structure on your
 computer:
 
 ```bash
-stata_workshop_2024                           # ROOT folder
-    ├── README.md                             # README file
-    ├── code                                  # Stata do files
-    │   ├── 01_master.do
+stata_workshop_2024                             # ROOT folder
+    ├── README.md                               # README file
+    ├── code                                    # Stata .do files
+    │   ├── 01_master.do                        
     │   ├── 02_process_data.do
     │   ├── 03_explore_data.do
+    │   ├── 04_analysis.do
     │   └── code_folder_info.txt
-    ├── final_data                            # Processed data
+    ├── final_data                              # Processed data
     │   └── final_data_folder_info.txt
-    ├── log                                   # Stata log files
+    ├── log                                     # Stata log files
     │   └── log_folder_info.txt
-    ├── output                                # Graphs and tables
+    ├── output                                  # Graphs and tables
     │   └── output_folder_info.txt
-    └── raw_data                              # Raw data
+    └── raw_data                                # Raw data
         ├── gpa2_mod.csv
         └── raw_data_folder_info.txt
 ```
 
 ## Helpful Resources:
-Here is a list of resources that I find helpful. I will update this list over time.
+Here is a list of resources that I find helpful. I will update this list over
+time.
 
 1. https://www.statalist.org/
 
