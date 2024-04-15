@@ -48,8 +48,8 @@ you're set and can skip step 3!**
 3. In case you cannot find the email from us with the zip file, you can download
 all files/folders directly from this Git repository to your computer, keeping
 all file names unchanged. **To do so**: On the top right of this page, click on
-the green button that says "Code", then click on "Download ZIP", save the zip
-file as "stata_workshop_2024", and unzip it on your computer.
+the green button that says "Code", then click on "Download ZIP", unzip and
+rename the folder "stata_workshop_2024".
 
 Once you have completed these steps, you should have this file structure on your
 computer:
