@@ -1,5 +1,5 @@
 /*
-Last updated	: 04/11/2024
+Last updated	: 04/14/2024
 Author			: Anh Do
 Affiliation		: MSU CSTAT
 Software		: Stata/SE 18.0
@@ -50,5 +50,11 @@ ssc install asdoc, replace
 *-------------------------------------------------------------------------------
 * Execute Do Files
 *-------------------------------------------------------------------------------
+// Import, process raw data, and save out clean data
 do "$CODE/02_process_data.do"
+
+// Explore data with summary tables and graphs
 do "$CODE/03_explore_data.do"
+
+// Data analysis
+do "$CODE/04_analysis.do"

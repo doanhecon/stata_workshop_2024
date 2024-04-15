@@ -1,5 +1,5 @@
 /*
-Last updated	: 03/31/2024
+Last updated	: 04/11/2024
 Author			: Anh Do
 Affiliation		: MSU CSTAT
 Software		: Stata/SE 18.0
@@ -97,6 +97,7 @@ save "$FINAL/gpa2_clean.dta", replace
 
 // Codebook
 htmlcb, saving($OUTPUT/gpa2_codebook.html) replace //interactive HTML format
+
 
 // Close log file and end do file
 log close

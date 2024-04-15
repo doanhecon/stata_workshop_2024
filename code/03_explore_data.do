@@ -1,5 +1,5 @@
 /*
-Last updated	: 04/10/2024
+Last updated	: 04/14/2024
 Author			: Anh Do
 Affiliation		: MSU CSTAT
 Software		: Stata/SE 18.0
@@ -35,7 +35,7 @@ sum colgpa if female == 1
 tabstat sat, by(athlete) stat(n mean sd)
 
 // Summary statistics table
-estpost sum, listwise
+estpost sum
 esttab using "$OUTPUT/summary_stats_$DATE.doc", cells("mean sd min max") ///
 	nomtitle nonumber replace	
 //or
@@ -54,11 +54,12 @@ asdoc corr sat colgpa hsrank, save($OUTPUT/corr_mat_$DATE.doc) replace
 *-------------------------------------------------------------------------------	
 // Continuous:
 histogram sat, normal
-graph export "$OUTPUT/sat_hist.pdf"
+graph export "$OUTPUT/sat_hist.pdf", replace
 
 // Discrete:
 graph bar (mean) athlete, over(female) ytitle("Proportion of athletes")
 * graph export ...
+
 
 *-------------------------------------------------------------------------------
 * Data Visualization: One Continuous, One Discrete
@@ -71,10 +72,12 @@ graph box sat, over(athlete) by(female)
 * Data Visualization: Two+ Continuous
 *-------------------------------------------------------------------------------
 // Scatterplot
-twoway scatter colgpa sat
+graph twoway scatter colgpa sat
 
 // Scatterplot with linear fitted line
-twoway (scatter colgpa sat, msymbol(oh)) (lfitci colgpa sat, legend(off))
+graph twoway (scatter colgpa sat, msymbol(oh)) (lfitci colgpa sat, legend(off) ///
+	ytitle("College GPA after fall semester"))
+
 	
 // Close log file and end do file
 log close
