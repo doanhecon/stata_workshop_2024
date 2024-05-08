@@ -84,10 +84,13 @@ time.
 [OARC](https://stats.oarc.ucla.edu/stata/)
 3. Other resources recommended by Stata:
 [Link](https://www.stata.com/links/resources-for-learning-stata/)
-4. The Stata workflow guide by Asjad Naqvi: [Medium
+4. "The Stata Workflow Guide" by Asjad Naqvi: [Medium
 article](https://medium.com/the-stata-guide/the-stata-workflow-guide-52418ce35006)
-5. The Do's and Don'ts of a Do file by Emmanuel Milet:
+5. "The Do's and Don'ts of a Do file" by Emmanuel Milet:
 [PDF](https://www.parisschoolofeconomics.eu/docs/yin-remi/do-file.pdf)
+6. "Code and Data for the Social Sciences: A Practitioner’s Guide" by Matthew
+   Gentzkow and Jesse M. Shapiro:
+   [PDF](https://www.princeton.edu/~reddings/tradephd/CodeAndData.pdf)
 
 ## Data Source:
 
